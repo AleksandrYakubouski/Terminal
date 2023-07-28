@@ -69,13 +69,13 @@ cd ..
 ```
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку.
 ```
-mv foldername_2/filename_1.txt foldername_1.1/filename_1.txt
-mv foldername_2/filename_4.json foldername_3.1/filename_4.json
+mv foldername_2/filename_1.txt foldername_2/foldername_1.1/filename_1.txt
+mv foldername_2/filename_4.json foldername_2/foldername_3.1/filename_4.json
 ```
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку.
 ```
-cp foldername_2/filename_1.txt foldername_1.1/filename_1.txt
-cp foldername_2/filename_4.json foldername_3.1/filename_4.json
+cp foldername_2/filename_2.txt foldername_2/foldername_1.1/filename_2.txt
+cp foldername_2/filename_5.json foldername_2/foldername_3.1/filename_5.json
 ```
 15. Найти файл по имени
 ```
@@ -130,7 +130,8 @@ echo "Вывести список содержимого папки"
 ls -la
 
 echo "переместить любые 2 файла в другую папку"
-mv foldername_2/filename_1.txt foldername_1.1/filename_1.txt foldername_new
+mv foldername_2/filename_1.txt foldername_2/foldername_1.1/filename_1.txt
+mv foldername_2/filename_4.json foldername_2/foldername_3.1/filename_4.json
 ```
 ---
 
